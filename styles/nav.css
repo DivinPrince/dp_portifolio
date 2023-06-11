@@ -1,0 +1,51 @@
+.desk{
+    display: none;
+    width: 60px;
+    padding: 5px;
+    border-radius: 160px;
+    border: 1px solid rgba(128, 128, 128, 0.492);
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 2%;
+    transform: translate(0%,-50%);
+    flex-direction: column;
+    align-items: center;
+    z-index: 40;
+}
+.mob{
+    z-index: 40;
+    display: flex;
+}
+.desk .logo{
+    background: #292929;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+@media (min-width: 640px) {
+    .desk{
+        /* background: #000; */
+        display: flex;
+
+    }
+    .section{
+        padding: 100px;
+    }
+    .mob{
+        display: none;
+    }
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+    height: 100%;
+}
+@media (max-height: 640px) {
+    .desk{
+        height: 250px;
+    }
+}

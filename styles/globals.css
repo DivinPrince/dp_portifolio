@@ -1,0 +1,66 @@
+@import url(./nav.css);
+@import url(./hero.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+.tools{
+  fill: white;
+}
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+.section{
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  position: relative;
+}
+.header{
+  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-white sm:text-6xl;
+  font-family: system-ui;
+  font-size: 50px;
+  height: 70px;
+}
+.dot{ 
+  color: #ff7600;
+}
+
+.reveal{
+  width: fit-content;
+}
+@media (min-width: 640px) {
+  .desk{
+      /* background: #000; */
+      display: flex;
+
+  }
+  .section{
+      padding: 100px;
+  }
+  .mob{
+      display: none;
+  }
+}
