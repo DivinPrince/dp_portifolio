@@ -1,5 +1,5 @@
 .desk{
-    display: none;
+    display: flex;
     width: 60px;
     padding: 5px;
     border-radius: 160px;
@@ -8,14 +8,24 @@
     position: fixed;
     top: 50%;
     left: 2%;
-    transform: translate(0%,-50%);
     flex-direction: column;
     align-items: center;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(15px);
     z-index: 40;
 }
-.mob{
-    z-index: 40;
-    display: flex;
+.top_nav{
+    @apply flex px-5 py-2 fixed top-0 z-40 justify-between w-full;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(15px);
+}
+#Layer_1{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+.menu{
+    fill: orange;
 }
 .desk .logo{
     background: #292929;
@@ -24,16 +34,8 @@
     margin-top: 10px;
 }
 @media (min-width: 640px) {
-    .desk{
-        /* background: #000; */
-        display: flex;
-
-    }
     .section{
         padding: 100px;
-    }
-    .mob{
-        display: none;
     }
 }
 .links{

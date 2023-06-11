@@ -1,28 +1,25 @@
+'use client'
 import React from 'react'
 import { Reveal } from './utils/Reveal'
+import { projects } from './constants'
+import Project from './Project'
 
 export default function Projects() {
+    let pros = projects.map(project =>(
+        <Project
+            key={projects.indexOf(project)}
+            {...project}
+        />
+    ))
     return (
         <section className='section' id='projects'>
-            <div className="hero">
+            <div className="w-full items-end px-[10px] sm:px-[100px]">
                 <Reveal>
-                    <div className="header">Hey, I'm dp <span className='dot'>.</span></div>
+                    <div className="header m-5">Projects <span className='dot'>.</span></div>
                 </Reveal>
-                <Reveal>
-                    <h1 className='sub_header'>
-                        I'm a <span>frontend developer</span>
-                    </h1>
-                </Reveal>
-                <Reveal>
-                    <p className='desc'>
-                        I started programming 2 years ago and I made many projects
-                        studying and some cool comapanies, I also like playing football
-                        after work(infact you got a nice ball portfolio to kick)
-                    </p>
-                </Reveal>
-                <Reveal>
-                    <button>Contact Me</button>
-                </Reveal>
+                <div className="project_container flex flex-wrap gap-[20px] justify-center">
+                    {pros}
+                </div>
             </div>
         </section>
     )
