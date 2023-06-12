@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import { Reveal } from './utils/Reveal'
+// import EarthCanvas from './Earth'
 
 const Hero = () => {
 	return (
@@ -11,7 +12,7 @@ const Hero = () => {
 				</Reveal>
 				<Reveal>
 					<h1 className='sub_header'>
-						I'm a <span>frontend developer</span>
+						I'm a <span>Fullstack developer</span>
 					</h1>
 				</Reveal>
 				<Reveal>
@@ -25,6 +26,7 @@ const Hero = () => {
 					<button>Contact Me</button>
 				</Reveal>
 			</div>
+			{/* <EarthCanvas /> */}
 		</section>
 	)
 }

@@ -59,7 +59,7 @@ const useWork = [
    {name:'GitHub'},
    {name:'Vercel'}, 
    {name:'MongoDB'},
-   {name:'ThreeJS'}
+   {name:'ThreeJS'},
 ]
 const useFun = [
     {name:'tailwind'},
