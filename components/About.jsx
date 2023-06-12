@@ -37,29 +37,22 @@ export default function About() {
 					<div className='flex flex-col gap-[50px] my-[50px]'>
 						<Reveal>
 							<p className='desc'>
-								Hey , I'm Dp which means Divin Prince I'm a
-								software developer from Rwanda I'm still a student
-								at ESTG l3. I used to play football but in ways I don't
-								know I became a Developer. I specialized in Frontend and also
-								like using frame works even whatever better for my job.
+							Greetings! I'm Dp, short for Divin Prince, a dynamic and passionate software developer hailing from the vibrant country of Rwanda. While my journey began on the football field, destiny had something extraordinary in store for me—I discovered my innate talent for coding, and I haven't looked back since!
 							</p>
 						</Reveal>
 						<Reveal>
 							<p className='desc'>
-								Hey , I'm Dp which means Divin Prince I'm a
-								software developer from Rwanda I'm still a student
-								at ESTG l3. I used to play football but in ways I don't
-								know I became a Developer. I specialized in Frontend and also
-								like using frame works even whatever better for my job.
+							Currently pursuing my studies at ESTG l3, I am immersing myself in the world of software development, eager to transform my passion into a fulfilling career. With a specialization in Frontend development, I have unleashed my creativity to craft captivating user interfaces that seamlessly connect with end-users. By blending intuitive design with cutting-edge technologies, I strive to deliver immersive and delightful digital experiences.
 							</p>
 						</Reveal>
 						<Reveal>
 							<p className='desc'>
-								Hey , I'm Dp which means Divin Prince I'm a
-								software developer from Rwanda I'm still a student
-								at ESTG l3. I used to play football but in ways I don't
-								know I became a Developer. I specialized in Frontend and also
-								like using frame works even whatever better for my job.
+								Frameworks are my secret sauce! I'm absolutely enamored with exploring and leveraging a wide array of frameworks to enhance productivity and unleash the true potential of my projects. I am constantly on the lookout for the latest and greatest tools and technologies that can elevate my work to new heights. Whether it's React, Angular, or Vue.js, I embrace whichever framework best suits the task at hand, always staying ahead of the curve.
+							</p>
+						</Reveal>
+						<Reveal>
+							<p className='desc'>
+							Through this captivating portfolio, I invite you to join me on a journey through my innovative world of frontend development. Witness firsthand my commitment to blending artistic vision with technical expertise to bring ideas to life. Each line of code I write is infused with passion, precision, and an unwavering attention to detail.
 							</p>
 						</Reveal>
 						<Reveal>
