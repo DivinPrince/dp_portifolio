@@ -111,7 +111,7 @@ const expert = [
         location: 'Rwanda, Kigali',
         company: 'LightMe',
         description: 
-            'Providing whole frontend page using tailwind css in react',
+        `At LightMe, a leading tech company, I serve as a Frontend Developer, where I'm responsible for providing comprehensive frontend solutions using React and Tailwind CSS. Collaborating with a talented team, I bring designs to life, ensuring seamless user experiences and captivating interfaces. By leveraging the power of Tailwind CSS, I create visually stunning and responsive web pages that engage and captivate users.`,
         date: 'June 2023 - present',
         icon: 'school'
     },
@@ -119,8 +119,9 @@ const expert = [
         id: 2,
         title: "Backend Developer",
         location: 'Rwanda, Rubavu',
+        company: 'Dime-Trade Project (with Leo)',
         description: 
-            'Providing whole Backend for dime-trade project with my friend leo using mongodb and sanity during vacation',
+            'During a vacation project, I took on the role of Backend Developer, working alongside my friend Leo on the ambitious Dime-Trade project. Together, we built the entire backend infrastructure using MongoDB as our database and Sanity as our content management system. Through effective collaboration and efficient code implementation, we developed robust and scalable solutions that facilitated smooth data management and seamless functionality.',
         date: 'September 2020 - 2021',
         icon: 'work'
     },
@@ -129,7 +130,7 @@ const expert = [
         title: "ESTG",
         location: 'Rwanda, Kigali',
         description: 
-            'After national exams I went at ESTG for my Level 3 software development',
+            'Following my exceptional performance in the national exams, I embarked on a rewarding journey at ESTG, where I am currently pursuing my Level 3 software development education. Here, I have been equipped with a solid foundation in programming principles, software engineering methodologies, and industry best practices. Through rigorous coursework, practical projects, and engaging discussions, I have honed my skills and expanded my knowledge, preparing me for the exciting challenges that lie ahead.',
         date: 'January 2020 - present',
         icon: 'school'
     },
