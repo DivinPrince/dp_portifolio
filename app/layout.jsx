@@ -1,8 +1,6 @@
 import '../styles/globals.css'
-import { Inter } from 'next/font/google'
 import ico from './icon.ico'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'dp_portfolio',
@@ -15,7 +13,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href={ico.src} />
       </head>
-      <body className={inter.className}>
+      <body>
         {children}
       </body>
     </html>
