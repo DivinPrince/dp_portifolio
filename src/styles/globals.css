@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #ffffff;
+  --color-muted: #a3a3a3;
+  --color-border: #262626;
+
+  --animate-earth-pulse: earth-pulse 5s ease-in-out infinite;
+  --animate-earth-spin: earth-spin 28s linear infinite;
+  --animate-earth-spin-reverse: earth-spin 18s linear infinite reverse;
+  --animate-earth-loader-spin: earth-loader-spin 0.9s linear infinite;
+
+  @keyframes earth-pulse {
+    0%,
+    100% {
+      opacity: 0.5;
+      transform: scale(0.96);
+    }
+    50% {
+      opacity: 0.85;
+      transform: scale(1.04);
+    }
+  }
+
+  @keyframes earth-spin {
+    to {
+      rotate: 360deg;
+    }
+  }
+
+  @keyframes earth-loader-spin {
+    to {
+      rotate: 360deg;
+    }
+  }
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth overflow-x-hidden;
+  }
+
+  body {
+    @apply bg-black text-white antialiased;
+  }
+
+  li {
+    @apply list-none;
+  }
+}
+
+@layer components {
+  .page-shell {
+    @apply relative mx-auto w-full max-w-[1280px] border-x border-neutral-600;
+  }
+
+  .slash-divider {
+    @apply pointer-events-none relative z-10 h-6 w-full sm:h-7;
+    background: repeating-linear-gradient(
+      -45deg,
+      #737373 0,
+      #737373 2px,
+      transparent 2px,
+      transparent 12px
+    );
+    border-top: 1px solid #525252;
+    border-bottom: 1px solid #525252;
+  }
+}

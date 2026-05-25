@@ -1,0 +1,5 @@
+export { default as HomeIcon } from './HomeIcon'
+export { default as AboutIcon } from './AboutIcon'
+export { default as ProjectsIcon } from './ProjectsIcon'
+export { default as ExperienceIcon } from './ExperienceIcon'
+export { default as ContactIcon } from './ContactIcon'
